@@ -23,7 +23,7 @@ D) The last but not the least step, of our project is "model deployment". We hav
 
 # Conclusion of both the models:
 
-The MSE and R2 scores are commonly used evaluation metrics for regression models. In this case, the Linear Regression and Lasso Regression models have very similar performance, with the Lasso Regression model having a slightly lower MSE and a slightly higher R2 score.The mean squared error (MSE) measures the average squared difference between the predicted and actual values, where a lower MSE indicates better performance.The R-squared (R2) score measures the proportion of the variance in the dependent variable that is predictable from the independent variables, where a higher R2 score indicates better performance. In other words, the R2 score measures the goodness of fit of a linear regression model.
+The evaluation of regression models often uses two metrics: MSE and R2 score. Both Linear Regression and Lasso Regression models have similar performance, with Linear Regression slightly outperforming Lasso Regression in terms of MSE and R2 score. MSE is a measure of the average difference between predicted and actual values, where lower MSE implies better performance. R2 score measures how much of the dependent variable's variance can be explained by independent variables and a higher R2 score indicates a better fit of the linear regression model.
 
 # Problem Statement
 
