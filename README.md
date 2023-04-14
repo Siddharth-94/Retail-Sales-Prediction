@@ -6,7 +6,7 @@ The Retail Sales prediction capstone project is provided with two CSV files that
 
 A) Initially, data cleaning and wrangling were conducted to combine two datasets. Then, the Exploratory Data Analysis (EDA) was performed by creating various visualization charts to analyze the data. During the EDA, some interesting findings were discovered such as the high correlation between sales and customers, more sales on Mondays due to store closures on Sundays, promotions leading to more sales, stores staying open more frequently during school holidays and generating more sales compared to state holidays, store type 'a' having the highest sales on average, Assortment level-b (i.e., 'extra') resulting in the highest average sales, school holidays affecting only 17.9% of sales, and so on.
 
-B) In the second step we did hypothesis testing:
+B) In the second step I did hypothesis testing:
 
 1. Hypothesis: Stores located closer to competition have significantly lower sales than stores located further away
 
@@ -14,12 +14,12 @@ B) In the second step we did hypothesis testing:
 
 3. Alternative hypothesis: Stores closer to competition have significantly lower sales than stores farther away.
 
-To test this hypothesis, we performed a two-sample t-test between the sales of stores located within 10 km of competition and
+To test this hypothesis, I performed a two-sample t-test between the sales of stores located within 10 km of competition and
 stores located further away. We can set a significance level of 0.05
 
-C) In the third step we performed feature engineering like filling missing values, handling null values, handling columns, deleting unnecessary columns, feature processing, feature extracting, outliers handling and feature selection.
+C) In the third step I performed feature engineering like filling missing values, handling null values, handling columns, deleting unnecessary columns, feature processing, feature extracting, outliers handling and feature selection.
 
-D) The last but not the least step, of our project is "model deployment". We have deployed two models, first one is the "linear regression model" and the second one is the "lasso regression model".
+D) The last but not the least step, of my project is "model deployment". I have deployed two models, first one is the "linear regression model" and the second one is the "lasso regression model".
 
 # Conclusion of both the models:
 
